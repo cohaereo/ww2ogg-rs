@@ -1,0 +1,3 @@
+[workspace]
+members = ["ww2ogg", "ww2ogg-cli"]
+resolver = "2"

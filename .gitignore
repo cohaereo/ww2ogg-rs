@@ -1,0 +1,22 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# .NET artifacts (legacy)
+bin/
+obj/
+*.user
+*.suo
+*.nupkg
+packages/
+

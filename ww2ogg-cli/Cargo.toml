@@ -1,0 +1,19 @@
+[package]
+name = "ww2ogg-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["ww2ogg-rs contributors"]
+description = "Command-line tool to convert Wwise audio files (.wem) to Ogg Vorbis"
+license = "BSD-3-Clause"
+repository = "https://github.com/coconutbird/ww2ogg-rs"
+keywords = ["wwise", "ogg", "vorbis", "audio", "wem", "cli"]
+categories = ["command-line-utilities", "multimedia::audio"]
+
+[[bin]]
+name = "ww2ogg"
+path = "src/main.rs"
+doc = false
+
+[dependencies]
+ww2ogg = { path = "../ww2ogg" }
+clap = { version = "4", features = ["derive"] }
