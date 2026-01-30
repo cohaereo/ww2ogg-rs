@@ -1,6 +1,7 @@
 # ww2ogg-rs
 
 [![CI](https://github.com/coconutbird/ww2ogg-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/coconutbird/ww2ogg-rs/actions/workflows/ci.yml)
+[![Crates.io](https://img.shields.io/crates/v/ww2ogg.svg)](https://crates.io/crates/ww2ogg)
 
 A Rust library and CLI tool for converting Wwise RIFF/RIFX Vorbis audio files (.wem) to standard Ogg Vorbis format.
 
