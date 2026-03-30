@@ -418,6 +418,18 @@ impl<R: Read + Seek> WwiseRiffVorbis<R> {
         Ok(converter)
     }
 
+    pub fn num_channels(&self) -> u16 {
+        self.channels
+    }
+
+    pub fn sample_rate(&self) -> u32 {
+        self.sample_rate
+    }
+
+    pub fn sample_count(&self) -> u32 {
+        self.sample_count
+    }
+
     // Helper methods for reading values
     fn read_u32_static(input: &mut R, little_endian: bool) -> WemResult<u32> {
         let mut buf = [0u8; 4];
